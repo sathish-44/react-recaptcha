@@ -38,7 +38,7 @@ export class App extends Component {
           Click
         </button>
         <Recaptcha
-          sitekey="6LccWv8UAAAAABPk9WEi3ZRutBsOBfCta9mhtODB"
+          sitekey="*****SITE KEY********"
           render="explicit"
           verifyCallback={this.verifyCallback}
           onloadCallback={this.recaptchaLoaded}
